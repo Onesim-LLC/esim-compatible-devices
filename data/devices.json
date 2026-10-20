@@ -1,0 +1,539 @@
+{
+  "$schema": "./devices.schema.json",
+  "updatedAt": "2026-10-20",
+  "brands": [
+    {
+      "name": "Apple",
+      "notes": [
+        "Device compatibility varies by country and region. eSIM on iPhone is not offered on the mainland of China. iPhones XS, XS Max, and XR sold in China, Macau, and Hong Kong are not eSIM compatible (dual SIM with two physical SIM slots).",
+        "Your device must be unlocked and iOS must be 14.1 or newer.",
+        "For Turkish-produced devices blocking eSIM installation, restore to factory settings per Apple guidance.",
+        "iPad: only Wi-Fi + Cellular models support eSIM."
+      ],
+      "devices": [
+        {"model": "iPhone XR", "type": "phone"},
+        {"model": "iPhone XS", "type": "phone"},
+        {"model": "iPhone XS Max", "type": "phone"},
+        {"model": "iPhone 11", "type": "phone"},
+        {"model": "iPhone 11 Pro", "type": "phone"},
+        {"model": "iPhone 11 Pro Max", "type": "phone"},
+        {"model": "iPhone SE (2020)", "type": "phone", "aliases": ["iPhone SE 2nd generation"]},
+        {"model": "iPhone 12", "type": "phone"},
+        {"model": "iPhone 12 mini", "type": "phone"},
+        {"model": "iPhone 12 Pro", "type": "phone"},
+        {"model": "iPhone 12 Pro Max", "type": "phone"},
+        {"model": "iPhone 13", "type": "phone"},
+        {"model": "iPhone 13 mini", "type": "phone"},
+        {"model": "iPhone 13 Pro", "type": "phone"},
+        {"model": "iPhone 13 Pro Max", "type": "phone"},
+        {"model": "iPhone SE (2022)", "type": "phone", "aliases": ["iPhone SE 3rd generation"]},
+        {"model": "iPhone 14", "type": "phone"},
+        {"model": "iPhone 14 Plus", "type": "phone"},
+        {"model": "iPhone 14 Pro", "type": "phone"},
+        {"model": "iPhone 14 Pro Max", "type": "phone"},
+        {"model": "iPhone 15", "type": "phone"},
+        {"model": "iPhone 15 Plus", "type": "phone"},
+        {"model": "iPhone 15 Pro", "type": "phone"},
+        {"model": "iPhone 15 Pro Max", "type": "phone"},
+        {"model": "iPhone 16", "type": "phone"},
+        {"model": "iPhone 16 Plus", "type": "phone"},
+        {"model": "iPhone 16 Pro", "type": "phone"},
+        {"model": "iPhone 16 Pro Max", "type": "phone"},
+        {"model": "iPhone 16e", "type": "phone"},
+        {"model": "iPhone 17", "type": "phone"},
+        {"model": "iPhone 17 Pro", "type": "phone"},
+        {"model": "iPhone 17 Pro Max", "type": "phone"},
+        {"model": "iPhone Air", "type": "phone"},
+        {"model": "iPhone 17e", "type": "phone"},
+        {"model": "iPhone 18 Pro", "type": "phone"},
+        {"model": "iPhone 18 Pro Max", "type": "phone"},
+        {"model": "iPhone Duo", "type": "phone"},
+        {"model": "iPad 10.2 (2019)", "type": "tablet", "aliases": ["iPad 7th generation"]},
+        {"model": "iPad 10.2 (2020)", "type": "tablet", "aliases": ["iPad 8th generation"]},
+        {"model": "iPad 10.2 (2021)", "type": "tablet", "aliases": ["iPad 9th generation"]},
+        {"model": "iPad 10.9 (2022)", "type": "tablet", "aliases": ["iPad 10th generation"]},
+        {"model": "iPad (A16)", "type": "tablet", "aliases": ["iPad 11th generation", "iPad (2025)"]},
+        {"model": "iPad mini (2019)", "type": "tablet", "aliases": ["iPad mini 5", "iPad mini 5th generation"]},
+        {"model": "iPad mini (2021)", "type": "tablet", "aliases": ["iPad mini 6", "iPad mini 6th generation"]},
+        {"model": "iPad mini (A17 Pro)", "type": "tablet", "aliases": ["iPad mini 7", "iPad mini (2024)"]},
+        {"model": "iPad Air (2019)", "type": "tablet", "aliases": ["iPad Air 3", "iPad Air 3rd generation"]},
+        {"model": "iPad Air (2020)", "type": "tablet", "aliases": ["iPad Air 4", "iPad Air 4th generation"]},
+        {"model": "iPad Air (2022)", "type": "tablet", "aliases": ["iPad Air 5", "iPad Air 5th generation"]},
+        {"model": "iPad Air 11 (M2)", "type": "tablet"},
+        {"model": "iPad Air 13 (M2)", "type": "tablet"},
+        {"model": "iPad Air 11 (M3)", "type": "tablet"},
+        {"model": "iPad Air 13 (M3)", "type": "tablet"},
+        {"model": "iPad Pro 11 (2018)", "type": "tablet", "aliases": ["iPad Pro 11 1st generation"]},
+        {"model": "iPad Pro 11 (2020)", "type": "tablet", "aliases": ["iPad Pro 11 2nd generation"]},
+        {"model": "iPad Pro 11 (2021)", "type": "tablet", "aliases": ["iPad Pro 11 3rd generation"]},
+        {"model": "iPad Pro 11 (2022)", "type": "tablet", "aliases": ["iPad Pro 11 4th generation"]},
+        {"model": "iPad Pro 12.9 (2018)", "type": "tablet", "aliases": ["iPad Pro 12.9 3rd generation"]},
+        {"model": "iPad Pro 12.9 (2020)", "type": "tablet", "aliases": ["iPad Pro 12.9 4th generation"]},
+        {"model": "iPad Pro 12.9 (2021)", "type": "tablet", "aliases": ["iPad Pro 12.9 5th generation"]},
+        {"model": "iPad Pro 12.9 (2022)", "type": "tablet", "aliases": ["iPad Pro 12.9 6th generation"]},
+        {"model": "iPad Pro 11 (M4)", "type": "tablet"},
+        {"model": "iPad Pro 13 (M4)", "type": "tablet"},
+        {"model": "iPad Pro 11 (M5)", "type": "tablet"},
+        {"model": "iPad Pro 13 (M5)", "type": "tablet"}
+      ]
+    },
+    {
+      "name": "Google",
+      "notes": [
+        "Your device must be unlocked. Within one device model there can be devices both with and without eSIM. Check your exact device before purchase.",
+        "Pixel 3 models bought in Australia, Taiwan, Japan or from US carriers other than Sprint and Google Fi do not support eSIM.",
+        "Pixel 3a models bought in Japan or South East Asia do not support eSIM."
+      ],
+      "devices": [
+        {"model": "Pixel 3", "type": "phone"},
+        {"model": "Pixel 3 XL", "type": "phone"},
+        {"model": "Pixel 3a", "type": "phone"},
+        {"model": "Pixel 3a XL", "type": "phone"},
+        {"model": "Pixel 4", "type": "phone"},
+        {"model": "Pixel 4 XL", "type": "phone"},
+        {"model": "Pixel 4a", "type": "phone"},
+        {"model": "Pixel 4a 5G", "type": "phone"},
+        {"model": "Pixel 5", "type": "phone"},
+        {"model": "Pixel 5a 5G", "type": "phone"},
+        {"model": "Pixel 6", "type": "phone"},
+        {"model": "Pixel 6 Pro", "type": "phone"},
+        {"model": "Pixel 6a", "type": "phone"},
+        {"model": "Pixel 7", "type": "phone"},
+        {"model": "Pixel 7 Pro", "type": "phone"},
+        {"model": "Pixel 7a", "type": "phone"},
+        {"model": "Pixel Fold", "type": "phone"},
+        {"model": "Pixel 8", "type": "phone"},
+        {"model": "Pixel 8 Pro", "type": "phone"},
+        {"model": "Pixel 8a", "type": "phone"},
+        {"model": "Pixel 9", "type": "phone"},
+        {"model": "Pixel 9 Pro", "type": "phone"},
+        {"model": "Pixel 9 Pro XL", "type": "phone"},
+        {"model": "Pixel 9 Pro Fold", "type": "phone"},
+        {"model": "Pixel 9a", "type": "phone"},
+        {"model": "Pixel 10", "type": "phone"},
+        {"model": "Pixel 10 Pro", "type": "phone"},
+        {"model": "Pixel 10 Pro XL", "type": "phone"},
+        {"model": "Pixel 10 Pro Fold", "type": "phone"},
+        {"model": "Pixel 10a", "type": "phone"},
+        {"model": "Pixel 11", "type": "phone"},
+        {"model": "Pixel 11 Pro", "type": "phone"},
+        {"model": "Pixel 11 Pro XL", "type": "phone"},
+        {"model": "Pixel 11 Pro Fold", "type": "phone"}
+      ]
+    },
+    {
+      "name": "Huawei",
+      "notes": [
+        "Your device must be unlocked. Within one device model there can be devices both with and without eSIM. Check your exact device before purchase."
+      ],
+      "devices": [
+        {"model": "Huawei P40", "type": "phone"},
+        {"model": "Huawei P40 Pro", "type": "phone"},
+        {"model": "Huawei Mate40 Pro", "type": "phone"},
+        {"model": "Huawei Pura 70 Pro", "type": "phone"}
+      ]
+    },
+    {
+      "name": "Motorola",
+      "notes": [
+        "Your device must be unlocked. Within one device model there can be devices both with and without eSIM. Check your exact device before purchase."
+      ],
+      "devices": [
+        {"model": "Motorola Razr 2019 and 5G", "type": "phone"},
+        {"model": "Motorola Razr 2022", "type": "phone"},
+        {"model": "Motorola Razr 40", "type": "phone"},
+        {"model": "Motorola Razr 40 Ultra", "type": "phone", "aliases": ["Motorola Razr+ 2023"]},
+        {"model": "Motorola Razr 50", "type": "phone"},
+        {"model": "Motorola Razr 50 Ultra", "type": "phone"},
+        {"model": "Motorola Razr 2024", "type": "phone"},
+        {"model": "Motorola Razr+ 2024", "type": "phone"},
+        {"model": "Motorola Razr 2025", "type": "phone"},
+        {"model": "Motorola Razr+ 2025", "type": "phone"},
+        {"model": "Motorola Razr Ultra 2025", "type": "phone"},
+        {"model": "Motorola Razr 60", "type": "phone"},
+        {"model": "Motorola Razr 60 Ultra", "type": "phone"},
+        {"model": "Motorola Edge (2022)", "type": "phone"},
+        {"model": "Motorola Edge (2023)", "type": "phone"},
+        {"model": "Motorola Edge+ (2023)", "type": "phone"},
+        {"model": "Motorola Edge (2024)", "type": "phone"},
+        {"model": "Motorola Edge 30 Pro", "type": "phone"},
+        {"model": "Motorola Edge 30 Ultra", "type": "phone"},
+        {"model": "Motorola Edge 30 Fusion", "type": "phone"},
+        {"model": "Motorola Edge 40", "type": "phone"},
+        {"model": "Motorola Edge 40 Pro", "type": "phone"},
+        {"model": "Motorola Edge 40 Neo", "type": "phone"},
+        {"model": "Motorola Edge 50 Pro", "type": "phone"},
+        {"model": "Motorola Edge 50 Ultra", "type": "phone"},
+        {"model": "Motorola Edge 50 Fusion", "type": "phone"},
+        {"model": "Motorola Edge 60", "type": "phone"},
+        {"model": "Motorola Edge 60 Fusion", "type": "phone"},
+        {"model": "Motorola Edge 60 Pro", "type": "phone"},
+        {"model": "Motorola Edge 60 Stylus", "type": "phone"},
+        {"model": "Motorola Edge 70", "type": "phone"},
+        {"model": "Motorola ThinkPhone", "type": "phone"},
+        {"model": "Motorola Moto G (2023)", "type": "phone"},
+        {"model": "Motorola Moto G (2024)", "type": "phone"},
+        {"model": "Motorola Moto G (2025)", "type": "phone"},
+        {"model": "Motorola Moto G Power (2024)", "type": "phone"},
+        {"model": "Motorola Moto G Power (2025)", "type": "phone"},
+        {"model": "Motorola Moto G Stylus 5G (2025)", "type": "phone"},
+        {"model": "Motorola Moto G56", "type": "phone"},
+        {"model": "Motorola Moto G85", "type": "phone"},
+        {"model": "Motorola Moto G86", "type": "phone"},
+        {"model": "Motorola Moto G86 Power", "type": "phone"}
+      ]
+    },
+    {
+      "name": "Samsung",
+      "notes": [
+        "Your device must be unlocked. Within one device model there can be devices both with and without eSIM. Check your exact device before purchase.",
+        "US versions of Galaxy Z Flip 5G are not compatible with eSIM.",
+        "US versions of Galaxy S21 are not compatible with eSIM.",
+        "US versions of Galaxy S20 and S20 FE 4G/5G are not compatible with eSIM.",
+        "US and Hong Kong versions of Galaxy Note20 Ultra are not compatible with eSIM.",
+        "Galaxy A-series eSIM support depends on the country where the device was bought."
+      ],
+      "devices": [
+        {"model": "Galaxy S20", "type": "phone"},
+        {"model": "Galaxy S20 5G", "type": "phone"},
+        {"model": "Galaxy S20+", "type": "phone"},
+        {"model": "Galaxy S20+ 5G", "type": "phone"},
+        {"model": "Galaxy S20 Ultra", "type": "phone"},
+        {"model": "Galaxy S20 Ultra 5G", "type": "phone"},
+        {"model": "Galaxy S21 5G", "type": "phone", "aliases": ["Galaxy S21"]},
+        {"model": "Galaxy S21+ 5G", "type": "phone", "aliases": ["Galaxy S21+"]},
+        {"model": "Galaxy S21 Ultra 5G", "type": "phone", "aliases": ["Galaxy S21 Ultra"]},
+        {"model": "Galaxy S22 5G", "type": "phone", "aliases": ["Galaxy S22"]},
+        {"model": "Galaxy S22+ 5G", "type": "phone", "aliases": ["Galaxy S22+"]},
+        {"model": "Galaxy S22 Ultra 5G", "type": "phone", "aliases": ["Galaxy S22 Ultra"]},
+        {"model": "Galaxy S23", "type": "phone"},
+        {"model": "Galaxy S23+", "type": "phone"},
+        {"model": "Galaxy S23 Ultra", "type": "phone"},
+        {"model": "Galaxy S23 FE", "type": "phone"},
+        {"model": "Galaxy S24", "type": "phone"},
+        {"model": "Galaxy S24+", "type": "phone"},
+        {"model": "Galaxy S24 Ultra", "type": "phone"},
+        {"model": "Galaxy S24 FE", "type": "phone"},
+        {"model": "Galaxy S25", "type": "phone"},
+        {"model": "Galaxy S25+", "type": "phone"},
+        {"model": "Galaxy S25 Ultra", "type": "phone"},
+        {"model": "Galaxy S25 Edge", "type": "phone"},
+        {"model": "Galaxy S25 FE", "type": "phone"},
+        {"model": "Galaxy S26", "type": "phone"},
+        {"model": "Galaxy S26+", "type": "phone"},
+        {"model": "Galaxy S26 Ultra", "type": "phone"},
+        {"model": "Galaxy S26 FE", "type": "phone"},
+        {"model": "Galaxy Note20", "type": "phone"},
+        {"model": "Galaxy Note20 5G", "type": "phone"},
+        {"model": "Galaxy Note20 Ultra 5G", "type": "phone", "aliases": ["Galaxy Note20 Ultra"]},
+        {"model": "Galaxy Fold", "type": "phone"},
+        {"model": "Galaxy Z Fold2 5G", "type": "phone", "aliases": ["Galaxy Z Fold2"]},
+        {"model": "Galaxy Z Fold3 5G", "type": "phone", "aliases": ["Galaxy Z Fold3"]},
+        {"model": "Galaxy Z Fold4", "type": "phone"},
+        {"model": "Galaxy Z Fold5", "type": "phone"},
+        {"model": "Galaxy Z Fold6", "type": "phone"},
+        {"model": "Galaxy Z Fold7", "type": "phone"},
+        {"model": "Galaxy Z Fold8", "type": "phone"},
+        {"model": "Galaxy Z Fold8 Ultra", "type": "phone"},
+        {"model": "Galaxy Z Flip", "type": "phone"},
+        {"model": "Galaxy Z Flip 5G", "type": "phone"},
+        {"model": "Galaxy Z Flip3 5G", "type": "phone", "aliases": ["Galaxy Z Flip3"]},
+        {"model": "Galaxy Z Flip4", "type": "phone"},
+        {"model": "Galaxy Z Flip5", "type": "phone"},
+        {"model": "Galaxy Z Flip6", "type": "phone"},
+        {"model": "Galaxy Z Flip7", "type": "phone"},
+        {"model": "Galaxy Z Flip7 FE", "type": "phone"},
+        {"model": "Galaxy Z Flip8", "type": "phone"},
+        {"model": "Galaxy A35", "type": "phone"},
+        {"model": "Galaxy A36", "type": "phone"},
+        {"model": "Galaxy A54", "type": "phone"},
+        {"model": "Galaxy A55", "type": "phone"},
+        {"model": "Galaxy A56", "type": "phone"},
+        {"model": "Galaxy Xcover7", "type": "phone"},
+        {"model": "Galaxy XCover7 Pro", "type": "phone"},
+        {"model": "Galaxy Tab S9 5G", "type": "tablet"},
+        {"model": "Galaxy Tab S9+ 5G", "type": "tablet"},
+        {"model": "Galaxy Tab S9 Ultra 5G", "type": "tablet"},
+        {"model": "Galaxy Tab S9 FE 5G", "type": "tablet"},
+        {"model": "Galaxy Tab S9 FE+ 5G", "type": "tablet"},
+        {"model": "Galaxy Tab S10+ 5G", "type": "tablet"},
+        {"model": "Galaxy Tab S10 Ultra 5G", "type": "tablet"},
+        {"model": "Galaxy Tab S10 FE 5G", "type": "tablet"},
+        {"model": "Galaxy Tab S10 FE+ 5G", "type": "tablet"},
+        {"model": "Galaxy Tab S11 5G", "type": "tablet"},
+        {"model": "Galaxy Tab S11 Ultra 5G", "type": "tablet"},
+        {"model": "Galaxy Tab Active5", "type": "tablet"}
+      ]
+    },
+    {
+      "name": "Sony",
+      "notes": [
+        "Your device must be unlocked. Within one device model there can be devices both with and without eSIM. Check your exact device before purchase."
+      ],
+      "devices": [
+        {"model": "Sony Xperia 1 IV", "type": "phone"},
+        {"model": "Sony Xperia 1 V", "type": "phone"},
+        {"model": "Sony Xperia 1 VI", "type": "phone"},
+        {"model": "Sony Xperia 1 VII", "type": "phone"},
+        {"model": "Sony Xperia 5 IV", "type": "phone"},
+        {"model": "Sony Xperia 5 V", "type": "phone"},
+        {"model": "Sony Xperia 10 III Lite", "type": "phone"},
+        {"model": "Sony Xperia 10 IV", "type": "phone"},
+        {"model": "Sony Xperia 10 V", "type": "phone"},
+        {"model": "Sony Xperia 10 VI", "type": "phone"}
+      ]
+    },
+    {
+      "name": "Xiaomi",
+      "notes": [
+        "Your device must be unlocked. Within one device model there can be devices both with and without eSIM. Check your exact device before purchase."
+      ],
+      "devices": [
+        {"model": "Xiaomi 12T Pro", "type": "phone"},
+        {"model": "Xiaomi 13", "type": "phone"},
+        {"model": "Xiaomi 13 Lite", "type": "phone"},
+        {"model": "Xiaomi 13 Pro", "type": "phone"},
+        {"model": "Xiaomi 13 Ultra", "type": "phone"},
+        {"model": "Xiaomi 13T", "type": "phone"},
+        {"model": "Xiaomi 13T Pro", "type": "phone"},
+        {"model": "Xiaomi 14", "type": "phone"},
+        {"model": "Xiaomi 14 Pro", "type": "phone"},
+        {"model": "Xiaomi 14 Ultra", "type": "phone"},
+        {"model": "Xiaomi 14T", "type": "phone"},
+        {"model": "Xiaomi 14T Pro", "type": "phone"},
+        {"model": "Xiaomi 15", "type": "phone"},
+        {"model": "Xiaomi 15 Ultra", "type": "phone"},
+        {"model": "Xiaomi 15T", "type": "phone"},
+        {"model": "Xiaomi 15T Pro", "type": "phone"},
+        {"model": "Xiaomi 17", "type": "phone"},
+        {"model": "Xiaomi 17 Ultra", "type": "phone"},
+        {"model": "Xiaomi Poco X7", "type": "phone"},
+        {"model": "Xiaomi Poco F8 Pro", "type": "phone"},
+        {"model": "Xiaomi Poco F8 Ultra", "type": "phone"},
+        {"model": "Xiaomi Redmi Note 13 Pro 5G", "type": "phone"},
+        {"model": "Xiaomi Redmi Note 13 Pro+ 5G", "type": "phone"},
+        {"model": "Xiaomi Redmi Note 14 Pro 5G", "type": "phone"},
+        {"model": "Xiaomi Redmi Note 14 Pro+ 5G", "type": "phone"},
+        {"model": "Xiaomi Redmi Note 15 Pro", "type": "phone"},
+        {"model": "Xiaomi Redmi Note 15 Pro+", "type": "phone"}
+      ]
+    },
+    {
+      "name": "Alcatel",
+      "notes": [],
+      "devices": [
+        {"model": "alcatel V3 Ultra", "type": "phone"}
+      ]
+    },
+    {
+      "name": "Asus",
+      "notes": [],
+      "devices": [
+        {"model": "Asus ROG Phone 9", "type": "phone"},
+        {"model": "Asus ROG Phone 9 Pro", "type": "phone"},
+        {"model": "Asus Zenfone 12 Ultra", "type": "phone"}
+      ]
+    },
+    {
+      "name": "DOOGEE",
+      "notes": [],
+      "devices": [
+        {"model": "DOOGEE V30", "type": "phone"}
+      ]
+    },
+    {
+      "name": "Fairphone",
+      "notes": [],
+      "devices": [
+        {"model": "Fairphone 4", "type": "phone"},
+        {"model": "Fairphone 5", "type": "phone"}
+      ]
+    },
+    {
+      "name": "Gemini",
+      "notes": [],
+      "devices": [
+        {"model": "Gemini PDA 4G+Wi-Fi", "type": "phone"}
+      ]
+    },
+    {
+      "name": "HAMMER",
+      "notes": [],
+      "devices": [
+        {"model": "HAMMER Blade 3", "type": "phone"},
+        {"model": "HAMMER Blade 5G", "type": "phone"},
+        {"model": "HAMMER Explorer PRO", "type": "phone"}
+      ]
+    },
+    {
+      "name": "Honor",
+      "notes": [],
+      "devices": [
+        {"model": "Honor 200", "type": "phone"},
+        {"model": "Honor 200 Pro", "type": "phone"},
+        {"model": "Honor 400", "type": "phone"},
+        {"model": "Honor 400 Lite", "type": "phone"},
+        {"model": "Honor 400 Pro", "type": "phone"},
+        {"model": "Honor Magic 4 Pro", "type": "phone"},
+        {"model": "Honor Magic5 Pro", "type": "phone"},
+        {"model": "Honor Magic6 Pro", "type": "phone"},
+        {"model": "Honor Magic7 Pro", "type": "phone"},
+        {"model": "Honor Magic7 Lite", "type": "phone"},
+        {"model": "Honor Magic8 Pro", "type": "phone"},
+        {"model": "Honor Magic V2", "type": "phone"},
+        {"model": "Honor Magic V3", "type": "phone"},
+        {"model": "Honor Magic V5", "type": "phone"}
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "notes": [],
+      "devices": [
+        {"model": "Microsoft Surface Duo", "type": "phone"},
+        {"model": "Microsoft Surface Duo 2", "type": "phone"}
+      ]
+    },
+    {
+      "name": "myPhone",
+      "notes": [],
+      "devices": [
+        {"model": "myPhone NOW eSIM", "type": "phone"}
+      ]
+    },
+    {
+      "name": "Nokia",
+      "notes": [],
+      "devices": [
+        {"model": "Nokia G60", "type": "phone"},
+        {"model": "Nokia X30", "type": "phone"},
+        {"model": "Nokia XR21", "type": "phone"}
+      ]
+    },
+    {
+      "name": "Nothing",
+      "notes": [],
+      "devices": [
+        {"model": "Nothing Phone (3)", "type": "phone"},
+        {"model": "Nothing Phone (3a) Pro", "type": "phone"}
+      ]
+    },
+    {
+      "name": "Nuu Mobile",
+      "notes": [],
+      "devices": [
+        {"model": "Nuu Mobile X5", "type": "phone"}
+      ]
+    },
+    {
+      "name": "OnePlus",
+      "notes": [],
+      "devices": [
+        {"model": "OnePlus 11", "type": "phone"},
+        {"model": "OnePlus 12", "type": "phone"},
+        {"model": "OnePlus 13", "type": "phone"},
+        {"model": "OnePlus 13R", "type": "phone"},
+        {"model": "OnePlus 13s", "type": "phone"},
+        {"model": "OnePlus 13T", "type": "phone"},
+        {"model": "OnePlus 15", "type": "phone"},
+        {"model": "OnePlus Open", "type": "phone"}
+      ]
+    },
+    {
+      "name": "Oppo",
+      "notes": [],
+      "devices": [
+        {"model": "Oppo Find N2 Flip", "type": "phone"},
+        {"model": "Oppo Find N3", "type": "phone"},
+        {"model": "Oppo Find N3 Flip", "type": "phone"},
+        {"model": "Oppo Find N5", "type": "phone"},
+        {"model": "Oppo Find X3", "type": "phone"},
+        {"model": "Oppo Find X3 Pro", "type": "phone"},
+        {"model": "Oppo Find X5", "type": "phone"},
+        {"model": "Oppo Find X5 Pro", "type": "phone"},
+        {"model": "Oppo Find X8", "type": "phone"},
+        {"model": "Oppo Find X8 Pro", "type": "phone"},
+        {"model": "Oppo Find X9", "type": "phone"},
+        {"model": "Oppo Find X9 Pro", "type": "phone"},
+        {"model": "Oppo Reno A", "type": "phone"},
+        {"model": "Oppo Reno14", "type": "phone"},
+        {"model": "Oppo Reno14 Pro", "type": "phone"}
+      ]
+    },
+    {
+      "name": "Rakuten",
+      "notes": [],
+      "devices": [
+        {"model": "Rakuten Big", "type": "phone"},
+        {"model": "Rakuten Big S", "type": "phone"},
+        {"model": "Rakuten Hand", "type": "phone"},
+        {"model": "Rakuten Hand 5G", "type": "phone"},
+        {"model": "Rakuten Mini", "type": "phone"}
+      ]
+    },
+    {
+      "name": "Realme",
+      "notes": [],
+      "devices": [
+        {"model": "Realme 14", "type": "phone"},
+        {"model": "Realme 14 Pro+", "type": "phone"},
+        {"model": "Realme GT 7", "type": "phone"},
+        {"model": "Realme GT 8 Pro", "type": "phone"}
+      ]
+    },
+    {
+      "name": "Sharp",
+      "notes": [],
+      "devices": [
+        {"model": "Sharp Aquos R7", "type": "phone"},
+        {"model": "Sharp Aquos R9 pro", "type": "phone"},
+        {"model": "Sharp Aquos R10", "type": "phone"},
+        {"model": "Sharp Aquos Sense4 Lite", "type": "phone"},
+        {"model": "Sharp Aquos sense8", "type": "phone"}
+      ]
+    },
+    {
+      "name": "T-Mobile",
+      "notes": [],
+      "devices": [
+        {"model": "T-Mobile REVVL 7", "type": "phone"},
+        {"model": "T-Mobile REVVL 7 Pro", "type": "phone"}
+      ]
+    },
+    {
+      "name": "TCL",
+      "notes": [],
+      "devices": [
+        {"model": "TCL 60", "type": "phone"},
+        {"model": "TCL 60 XE NxtPaper", "type": "phone"}
+      ]
+    },
+    {
+      "name": "Trump Mobile",
+      "notes": [],
+      "devices": [
+        {"model": "Trump Mobile T1 Phone", "type": "phone"}
+      ]
+    },
+    {
+      "name": "vivo",
+      "notes": [],
+      "devices": [
+        {"model": "vivo V40", "type": "phone"},
+        {"model": "vivo V50", "type": "phone"},
+        {"model": "vivo X200", "type": "phone"},
+        {"model": "vivo X200 FE", "type": "phone"},
+        {"model": "vivo X200 Pro", "type": "phone"},
+        {"model": "vivo X200s", "type": "phone"},
+        {"model": "vivo X300", "type": "phone"},
+        {"model": "vivo X300 Pro", "type": "phone"}
+      ]
+    },
+    {
+      "name": "ZTE",
+      "notes": [],
+      "devices": [
+        {"model": "nubia Flip2", "type": "phone"}
+      ]
+    }
+  ]
+}

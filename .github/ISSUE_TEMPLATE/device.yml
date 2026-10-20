@@ -1,0 +1,34 @@
+name: Missing or wrong device
+description: Report a device that should be added, fixed or removed
+labels: [data]
+body:
+  - type: dropdown
+    id: change
+    attributes:
+      label: Change
+      options:
+        - Add a device
+        - Fix a device name or alias
+        - Remove a device (it does not support eSIM)
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Brand and model
+      placeholder: Samsung Galaxy S26 Edge
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Manufacturer spec page or eSIM support page that confirms it
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Regional variants without eSIM, carrier restrictions, other names the device is sold under

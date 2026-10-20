@@ -1,0 +1,55 @@
+{
+  "name": "@onesim/esim-compatible-devices",
+  "version": "1.0.0",
+  "description": "Curated list of eSIM-compatible phones and tablets as JSON, with lookup and search helpers",
+  "keywords": [
+    "esim",
+    "esim-compatible",
+    "devices",
+    "iphone",
+    "android",
+    "compatibility"
+  ],
+  "license": "MIT",
+  "author": "Onesim (https://onesim.co)",
+  "homepage": "https://github.com/Onesim-LLC/esim-compatible-devices#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Onesim-LLC/esim-compatible-devices.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Onesim-LLC/esim-compatible-devices/issues"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./devices.json": "./data/devices.json",
+    "./devices.schema.json": "./data/devices.schema.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "data"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "generate": "node scripts/generate.mjs",
+    "build": "node scripts/generate.mjs && tsc -p tsconfig.json",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "prepublishOnly": "npm test"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
